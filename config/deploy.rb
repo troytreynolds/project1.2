@@ -1,10 +1,10 @@
 # config valid only for current version of Capistrano
-lock '3.4.0'
+lock '3.1.0'
 
 set :application, 'project1.2'
 set :repo_url, 'https://github.com/troytreynolds/project1.2.git'
 set :scm, :git
-set :deploy_to '/home/vagrant/project1.2'
+set :deploy_to, '/home/vagrant/project1.2'
 set :pty, true
 set :format, :pretty
 set :linked_files, %w{config/database.yml}
