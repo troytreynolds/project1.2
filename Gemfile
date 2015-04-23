@@ -6,7 +6,10 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'capistrano', '~>3.1.0'
+gem 'capistrano-bundler', '~>1.1.2'
+gem 'capistrano-rails', '~>1.1.1'
+gem 'capistrano-rvm', github: "capistrano/rvm"
 
 # Gems used only for assets and not required
 # in production environments by default.
